@@ -1,7 +1,7 @@
 
 package step6_02.method;
 
-//210414 17:15 ~ 
+//210414 17:15 ~ 17:39
 
 import java.util.Arrays;
 
@@ -86,7 +86,6 @@ class Ex09_01 {
 				if(hakbun == hakbuns[i]) {
 					isFind = true;
 					idx = i;
-					break;
 				}
 				else {
 					System.out.println("학번 검색되지 않음");
