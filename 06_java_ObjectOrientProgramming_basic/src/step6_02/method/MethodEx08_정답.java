@@ -54,7 +54,7 @@ public class MethodEx08_정답 {
 		// 정답 3) 3
 		e.printCountMultiple4(arr);
 		
-		kim
+		
 
 	}
 

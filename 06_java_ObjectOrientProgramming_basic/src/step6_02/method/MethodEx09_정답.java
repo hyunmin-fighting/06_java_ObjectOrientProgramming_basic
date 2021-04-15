@@ -86,6 +86,7 @@ class Ex09_01 {
 				if(hakbun == hakbuns[i]) {
 					isFind = true;
 					idx = i;
+					break;
 				}
 				else {
 					System.out.println("학번 검색되지 않음");
