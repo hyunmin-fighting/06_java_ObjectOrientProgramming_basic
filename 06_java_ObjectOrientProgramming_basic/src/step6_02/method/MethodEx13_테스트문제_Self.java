@@ -82,7 +82,17 @@ class Theater_01{
 		
 		while(true) {
 		
-			
+			showMenu();
+			System.out.print("메뉴 선택 : ");
+			int sel = scan.nextInt();
+			if(sel == 1) {
+				choiceSeat();
+			}
+			else if(sel == 2) {
+				showSales();
+				System.out.println("종료합니다.");
+				break;
+			}
 			
 			
 		}
@@ -90,16 +100,13 @@ class Theater_01{
 	}
 }
 
-public class MethodEx13_테스트문제_Self_작업중_____________ {
+public class MethodEx13_테스트문제_Self {
 
 	public static void main(String[] args) {
 
 		Theater_01 megabox = new Theater_01();
-	//	megabox.run();
-		megabox.showMenu();
-		megabox.choiceSeat();
-		megabox.showSeat();
-		megabox.showSales();
+		megabox.run();
+
 		
 	}
 

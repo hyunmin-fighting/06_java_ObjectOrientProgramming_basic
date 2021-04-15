@@ -12,14 +12,14 @@ class Zealot{
 	void showStatus() {
 		
 		System.out.println("this : " + this);
-//		System.out.println("shield : " + this.shield);
-//		System.out.println("hp : " + this.hp);
-//		System.out.println();
+		System.out.println("shield : " + this.shield);
+		System.out.println("hp : " + this.hp);
+		System.out.println();
 		
 		// this는 생력이 가능하지만 가독성 향상을 위해서 this를 명시하자.
-		System.out.println("shield : " + shield);
-		System.out.println("hp : " + hp);
-		System.out.println();
+//		System.out.println("shield : " + shield);
+//		System.out.println("hp : " + hp);
+//		System.out.println();
 	}
 	
 }

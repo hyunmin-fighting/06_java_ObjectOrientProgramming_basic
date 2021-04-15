@@ -56,8 +56,8 @@ public class MethodEx03 {
 		
 		obj.setScore2(score2);	
 		System.out.println("메서드 호출후의 성적 = " + score2);	 // ? 메서드 호출후의 성적 = 87
-		System.out.println(obj.setScore2(score2));
-		//score2 = obj.setScore2(score2);		
+		System.out.println(obj.setScore2(score2)); // 100
+		score2 = obj.setScore2(score2);		
 		System.out.println("메서드 호출후의 성적 = " + score2);	 // ? 메서드 호출후의 성적 = 100
 		
 		
